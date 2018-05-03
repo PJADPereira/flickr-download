@@ -23,11 +23,13 @@ No external dependencies should be required to run it
         <p>Southermost Latitude of the box</p>
         <p>Easternmost Longitude of the box</p>
         <p>Northermost Latitude of the box</p>
-      <p></p>       
+          
   
   
   
-      <p><strong>Example:</strong></p>
+      <strong>Example:</strong>
+      
+      
       ```
       python3 flickr.py my_api_key -8.42670,41.653104,-7.754076,42.083595
       ```
