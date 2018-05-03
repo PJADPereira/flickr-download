@@ -21,20 +21,18 @@ This script only works in Python 3.x and was tested and run in Python 3.5. No ex
           
   
   
+<h3>Examples:</H3>
+      
+      
+  ```
+  python3 flickr.py my_api_key -8.42670,41.653104,-7.754076,42.083595
+  ```
+      
+  Alternatively, the script can be launched without passing any arguments, and they can be provided during runtime:
   
-      <strong>Example:</strong>
-      
-      
-      ```
-      python3 flickr.py my_api_key -8.42670,41.653104,-7.754076,42.083595
-      ```
-      
-      Alternatively, the script can be launched without passing any arguments, and they
-      can be provided during runtime:
-      
-      ```
-      python3 flickr.py
-      ```
+  ```
+  python3 flickr.py
+  ```
       
       
   
