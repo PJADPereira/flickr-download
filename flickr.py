@@ -5,8 +5,8 @@ import os
 import sys
 
 '''
-A flicker class, that takes care of downloading the photos through the flicker API and
-saving the related info to a csv file it takes three arguments as input photo_path which
+A flicker class, that takes care of downloading photos through the flicker API and
+saving the related info to a csv file. It takes three arguments as input photo_path which
 is by default a folder named .Photos that the script will create if it has the proper 
 permissions, the user api_key and the coordinates of the most extreme points of the box 
 to download photos from.
@@ -15,13 +15,17 @@ The class has two internal methods:
 
     __get_photo_xml:
         builds a list with the xml of each of the photos retrieved from the flickr api
-        that are present in the box provided
+        that are present in the box provided. It uses the flickr.photos.search API method 
+        and produces a list of all photos found in the area of interest.
 
         
 
     __run:
         calls __get_photo_xml to build the list of photos, goes through it and downloads 
         the photo and compiles the respective that in a file called results.csv
+        
+        It uses the flickr.photos.getInfo API method to get the data of interest and downloads
+        the through the staticflickr. 
 
 
 static methods:
