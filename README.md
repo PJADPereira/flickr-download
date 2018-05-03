@@ -1,8 +1,4 @@
-A flicker class, that takes care of downloading photos through the flicker API and
-saving the related info to a csv file. It takes three arguments as input photo_path which
-is by default a folder named .Photos that the script will create if it has the proper 
-permissions, the user api_key and the coordinates of the most extreme points of the box 
-to download photos from.
+A flicker class, with the porpuse of download every photo inside a given geographic box. It does so using the flickr API. It takes three arguments as input photo_path which is by default a folder named .Photos that the script will create if it has the proper permissions, the user api_key and the coordinates of the most extreme points of the box to download photos from.
 
 This script is as used in Vaz et al., 2018 (in prep)
 
@@ -16,7 +12,7 @@ No external dependencies should be required to run it
 
   2)  The flickr.py script expects two arguments to be passed through the command line:
       <p>my_api_key: The API key that you receive when you sign in in flickr;</p>
-      </p>coordinates: Four coordinate values separated by commas, be sure to keep it in the
+      <p>coordinates: Four coordinate values separated by commas, be sure to keep it in the
       order provided below:</p>
       
         <p>&emsp;Westernmost Longitude of the box</p>
