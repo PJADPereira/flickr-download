@@ -3,8 +3,7 @@ A flicker class, with the porpuse of download every photo inside a given geograp
 This script is as used in Vaz et al., 2018 (in prep)
 
 <h3>Requirements:</h3>
-This script only works in Python 3.x and was tested and run in Python 3.5
-No external dependencies should be required to run it
+This script only works in Python 3.x and was tested and run in Python 3.5. No external dependencies should be required to run.
 
 <h3>How to use:</h3>
 
