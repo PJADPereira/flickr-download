@@ -27,7 +27,7 @@ No external dependencies should be required to run it
   
   
   
-      Example:
+      <p><strong>Example:</strong></p>
       ```
       python3 flickr.py my_api_key -8.42670,41.653104,-7.754076,42.083595
       ```
