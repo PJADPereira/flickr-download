@@ -14,10 +14,10 @@ No external dependencies should be required to run it
 
   1)  Download or clone the script (flickr.py) into a working folder.
 
-  2)  The flickr.py script expects two arguments to be passed through the command line
-      my_api_key: The API key that you receive when you sign in in flickr
-      coordinates: Four coordinate values separated by commas, be sure to keep it in the
-      order provided below:
+  2)  The flickr.py script expects two arguments to be passed through the command line:
+      <p>my_api_key: The API key that you receive when you sign in in flickr;</p>
+      </p>coordinates: Four coordinate values separated by commas, be sure to keep it in the
+      order provided below:</p>
       
         <p>Westernmost Longitude of the box</p>
         <p>Southermost Latitude of the box</p>
