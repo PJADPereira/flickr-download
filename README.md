@@ -19,10 +19,10 @@ No external dependencies should be required to run it
       </p>coordinates: Four coordinate values separated by commas, be sure to keep it in the
       order provided below:</p>
       
-        <p>Westernmost Longitude of the box</p>
-        <p>Southermost Latitude of the box</p>
-        <p>Easternmost Longitude of the box</p>
-        <p>Northermost Latitude of the box</p>
+        <p>&emsp;Westernmost Longitude of the box</p>
+        <p>&emsp;Southermost Latitude of the box</p>
+        <p>&emsp;Easternmost Longitude of the box</p>
+        <p>&emsp;Northermost Latitude of the box</p>
           
   
   
