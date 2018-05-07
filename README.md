@@ -1,4 +1,4 @@
-A flicker class, with the porpuse of download every photo inside a given geographic box. It does so using the flickr API (more info in the docstring on the flicker.py file). It takes three arguments as input photo_path which is by default a folder named .Photos that the script will create if it has the proper permissions, the user api_key and the coordinates of the most extreme points of the box to download photos from.
+A flickr class, with the purpose of download every photo inside a given geographic box. It does so using the flickr API (more info in the docstring on the flickr.py file). It takes three arguments as input photo_path which is by default a folder named .Photos that the script will create if it has the proper permissions, the user api_key and the coordinates of the most extreme points of the box to download photos from.
 
 This script is as used in Vaz et al., 2018 (in prep)
 
