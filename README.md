@@ -1,6 +1,6 @@
 A flickr class, with the purpose of download every photo inside a given geographic box. It does so using the flickr API (more info in the docstring on the flickr.py file). It takes three arguments as input photo_path which is by default a folder named .Photos that the script will create if it has the proper permissions, the user api_key and the coordinates of the most extreme points of the box to download photos from.
 
-This script is as used in Vaz et al., 2018 (in prep)
+This script is as used in Vaz et al. 2019 (https://doi.org/10.1016/j.rse.2019.05.012)
 
 <h3>Requirements:</h3>
 This script only works in Python 3.x and was tested and run in Python 3.5. No external dependencies should be required to run.
